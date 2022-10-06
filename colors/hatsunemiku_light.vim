@@ -81,8 +81,8 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi MoreMsg guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi NonText guifg=#ced1d1 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Normal guifg=#242829 ctermfg=235 guibg=#ffffff ctermbg=255 gui=NONE cterm=NONE
-  hi PMenu guifg=#9f9f8a ctermfg=247 guibg=#ced1d1 ctermbg=252 gui=NONE cterm=NONE
-  hi PMenuSel guifg=#ffffff ctermfg=255 guibg=#f1efef ctermbg=247 gui=NONE cterm=NONE
+  hi PMenu guifg=#9f9f8a ctermfg=247 guibg=#f1efef ctermbg=252 gui=NONE cterm=NONE
+  hi PMenuSel guifg=#ffffff ctermfg=255 guibg=#ced1d1 ctermbg=247 gui=NONE cterm=NONE
   hi link PmenuSbar PMenuSel
   hi link PmenuThumb PMenuSel
   hi Question guifg=#242829 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
