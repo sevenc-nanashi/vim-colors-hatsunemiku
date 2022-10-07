@@ -116,6 +116,9 @@ let g:hatsunemiku_light_bold = get(g:, '_bold', 0)
   hi Error guifg=#a365ba ctermfg=133 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
   hi Todo guifg=#df2683 ctermfg=162 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
   hi vimSetSep guifg=#7b8b99 ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Search guifg=#74bfbf ctermfg=247 guibg=#f1efef ctermbg=252 gui=NONE cterm=NONE
+  hi SearchCurrent guifg=#1a86b9 ctermfg=247 guibg=#f1efef ctermbg=252 gui=NONE cterm=NONE
+
 
 if has('terminal')
   let g:terminal_ansi_colors = [
